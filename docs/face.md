@@ -22,6 +22,11 @@ Here are the different responses that can be returned:
 {"icon_url":"https:\/\/render.namemc.com\/skin\/2d\/face.png?skin=a7c87dca2251c5b6&overlay&scale=2","skin_url":"https:\/\/texture.namemc.com\/a7\/c8\/a7c87dca2251c5b6.png"}
 ```
 
+**User Does Not Exist / HTTP `404`:**
+```json
+{"error":"This user doesn't exist"}
+```
+
 **You Didn't Provide The Username Parameter / HTTP `404`:**
 ```json
 {"error":"You didn't supply an account to get a skin hash from! Add the parameter ?username=IGN_HERE."}
