@@ -17,9 +17,9 @@ If the user you provide doesn't exist, the API will return HTTP status code `404
 
 Here are the different responses that can be returned:
 
-**Returns the Skin Hash / HTTP `200`:**
+**Returns the Cape Hash / HTTP `200`:**
 ```json
-{"capehash":"a7c87dca2251c5b6"}
+{"capehash":"cb5dd34bee340182"}
 ```
 
 **No Cape / HTTP `200`:**
