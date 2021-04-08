@@ -16,5 +16,8 @@
 - NameMC Favorite Servers API ([documentation](./docs/favservers.md))
 - NameMC Favorite Servers Count API ([documentation](./docs/favservers_count.md))
 
+### official namemc api
+- NameMC Friends API ([documentation](./docs/friends.md))
+
 This API is not affiliated nor indorsed by NameMC, Minecraft, Mojang, or Microsoft.
 
