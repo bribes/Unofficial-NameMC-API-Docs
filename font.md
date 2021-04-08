@@ -43,9 +43,14 @@ If the user you provide doesn't exist, the API will return HTTP status code `404
 
 Here are the different responses that can be returned:
 
-**Returns the Skin Hash / HTTP `200`:**
+**Returns the Font / HTTP `200`:**
 ```json
-{"skinhash":"a7c87dca2251c5b6"}
+{"font":"Spirax"}
+```
+
+**No Font / HTTP `200`:**
+```json
+{"font":null}
 ```
 
 **User Does Not Exist / HTTP `404`:**
