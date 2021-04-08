@@ -1,4 +1,4 @@
-# api.gapple.pw
+# www.faav.tk/v1/namemc/
 
 ### routes
 - NameMC Skin Hash API ([documentation](./skinhash/))
