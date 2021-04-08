@@ -1,6 +1,6 @@
 # www.faav.tk/v1/namemc/
 
-![namemc](https://user-images.githubusercontent.com/52789876/114091283-7ae80e00-9886-11eb-8b49-a62f35238a1b.png)
+![logo](https://user-images.githubusercontent.com/52789876/114109072-7d586100-98a2-11eb-9a4d-75f806bff5ad.png)
 
 ### routes
 - NameMC Skin Hash API ([documentation](./docs/skinhash.md))
