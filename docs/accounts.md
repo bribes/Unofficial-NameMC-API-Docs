@@ -17,12 +17,12 @@ If the user you provide doesn't exist, the API will return HTTP status code `404
 
 Here are the different responses that can be returned:
 
-**Returns the users connections / HTTP `200`:**
+**Returns the Users Connections / HTTP `200`:**
 ```json
 [{"content":"Faav#0130","icon":"https:\/\/static.namemc.com\/i\/service\/discord.svg","title":"Discord"},{"icon":"https:\/\/static.namemc.com\/i\/service\/github.svg","title":"GitHub","url":"https:\/\/github.com\/FaavXD"},{"icon":"https:\/\/static.namemc.com\/i\/service\/reddit.svg","title":"Reddit","url":"https:\/\/www.reddit.com\/user\/FaavXD"},{"icon":"https:\/\/static.namemc.com\/i\/service\/steam.svg","title":"Steam","url":"https:\/\/steamcommunity.com\/id\/f4av"},{"icon":"https:\/\/static.namemc.com\/i\/service\/twitter.svg","title":"Twitter","url":"https:\/\/twitter.com\/FaavXD"},{"icon":"https:\/\/static.namemc.com\/i\/service\/youtube.svg","title":"YouTube","url":"https:\/\/www.youtube.com\/channel\/UCzG5jazKOD2n0jCSdraTzGA"}]
 ```
 
-**No Capes / HTTP `200`:**
+**No Connections / HTTP `200`:**
 ```json
 []
 ```
