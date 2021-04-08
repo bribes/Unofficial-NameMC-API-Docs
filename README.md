@@ -11,4 +11,3 @@
 - NameMC Favorite Servers API ([documentation](./favserver.md))
 - NameMC Favorite Servers Count API ([documentation](./favserver_count.md))
 
- ty lucky swede for the docs
