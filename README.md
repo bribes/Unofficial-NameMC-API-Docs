@@ -8,6 +8,7 @@
 - NameMC Capes API ([documentation](./docs/capes.md))
 - NameMC Cape Count API ([documentation](./docs/capecount.md))
 - NameMC Face Icon API ([documentation](./docs/face.md))
+- NameMC Social Media Accounts API ([documentation](./docs/accounts.md))
 - NameMC Rank API ([documentation](./docs/rank.md))
 - NameMC Emoji API ([documentation](./docs/emoji.md))
 - NameMC Custom Font API ([documentation](./docs/font.md))
