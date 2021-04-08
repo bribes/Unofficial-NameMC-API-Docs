@@ -17,7 +17,7 @@ If the user you provide doesn't exist, the API will return HTTP status code `404
 
 Here are the different responses that can be returned:
 
-**Returns the users Favorite Servers / HTTP `200`:**
+**Returns the Users Favorite Servers / HTTP `200`:**
 ```json
 [{"domain":"mc.hypixel.net","icon":"https:\/\/texture.namemc.com\/ad\/bf\/adbf2b8031965b50.png","name":"Hypixel","url":"https:\/\/namemc.com\/server\/mc.hypixel.net"}]
 ```
