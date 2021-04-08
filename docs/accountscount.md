@@ -17,7 +17,7 @@ If the user you provide doesn't exist, the API will return HTTP status code `404
 
 Here are the different responses that can be returned:
 
-**Returns the Number of Connections a user has / HTTP `200`:**
+**Returns the Number of Connections a User Has / HTTP `200`:**
 ```json
 {"formatted":"1","value":1}
 ```
