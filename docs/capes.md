@@ -17,7 +17,7 @@ If the user you provide doesn't exist, the API will return HTTP status code `404
 
 Here are the different responses that can be returned:
 
-**Returns the users Capes / HTTP `200`:**
+**Returns the Users Capes / HTTP `200`:**
 ```json
 [{"hash":"ebc798c3f7eca2a3","name":"MineCon 2012","raw":"https:\/\/texture.namemc.com\/eb\/c7\/ebc798c3f7eca2a3.png","url":"https:\/\/namemc.com\/cape\/ebc798c3f7eca2a3"}]
 ```
