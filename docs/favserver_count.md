@@ -17,14 +17,14 @@ If the user you provide doesn't exist, the API will return HTTP status code `404
 
 Here are the different responses that can be returned:
 
-**Returns Users Emoji / HTTP `200`:**
+**Returns Amount of Servers Favorited / HTTP `200`:**
 ```json
-{"emoji_url":"https:\/\/static.namemc.com\/i\/emoji\/twitter\/2614.svg","raw":"\u2614"}
+{"formatted":"2","value":2}
 ```
 
-**No Emoji / HTTP `200`:**
+**No Favorite Servers / HTTP `200`:**
 ```json
-{"emoji_url":null,"raw":null}
+{"formatted":"0","value":0}
 ```
 
 **User Does Not Exist / HTTP `404`:**
