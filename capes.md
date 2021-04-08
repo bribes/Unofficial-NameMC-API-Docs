@@ -27,6 +27,11 @@ Here are the different responses that can be returned:
 []
 ```
 
+**User doesn't exist / HTTP `404`:**
+```json
+{"error":"This user doesn't exist"}
+```
+
 **You Didn't Provide The Username Parameter / HTTP `404`:**
 ```json
 {"error":"You didn't supply an account to get a skin hash from! Add the parameter ?username=IGN_HERE."}
