@@ -3,7 +3,7 @@ NameMC has their own Face Images.
 
 This API's purpose is to get the Face Icon of a player.
 
-### `GET /v1/namemc/capecount?username=:IGN_Here`
+### `GET /v1/namemc/face?username=:IGN_Here`
 This is the only endpoint for this API.
 
 Parameters are as follows:
