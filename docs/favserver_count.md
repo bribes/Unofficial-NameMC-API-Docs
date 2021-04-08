@@ -3,7 +3,7 @@ NameMC has their own system for favoriting servers.
 
 This API's purpose is to get the number of servers the user has favorited.
 
-### `GET /v1/namemc/emoji?username=:IGN_Here`
+### `GET /v1/namemc/favoriteservers_count?username=:IGN_Here`
 This is the only endpoint for this API.
 
 Parameters are as follows:
