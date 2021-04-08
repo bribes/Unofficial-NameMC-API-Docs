@@ -1,7 +1,7 @@
 # NameMC Skin Hash API docs
-NameMC has their own system for storing skins, this 
+NameMC has their own system for storing skins.
 
-This API's purpose is to estimate if a dropping Minecraft username is a "reclaim". These docs will guide users through how to use this API and what responses can possibly be returned.
+This API's purpose is to get a users NameMC Skin Hash.
 
 ### `GET /v1/namemc/skinhash?username=IGN_Here`
 This is the only endpoint for this API.
