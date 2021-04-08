@@ -12,3 +12,4 @@
 - NameMC Favorite Servers Count API ([documentation](./favserver_count.md))
 
 Copyright [FaavXD](https://github.com/FaavXD) 2021, all rights reserved.
+ ty lucky swede for the docs
