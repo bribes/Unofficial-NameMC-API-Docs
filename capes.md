@@ -37,4 +37,3 @@ Here are the different responses that can be returned:
 {"error":"You didn't supply an account to get a skin hash from! Add the parameter ?username=IGN_HERE."}
 ```
 
-Copyright [FaavXD](https://github.com/FaavXD) 2021, all rights reserved.
