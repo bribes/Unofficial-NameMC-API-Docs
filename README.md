@@ -9,6 +9,6 @@
 - NameMC Rank API ([documentation](./docs/rank.md))
 - NameMC Emoji API ([documentation](./docs/emoji.md))
 - NameMC Custom Font API ([documentation](./docs/font.md))
-- NameMC Favorite Servers API ([documentation](./docs/favserver.md))
-- NameMC Favorite Servers Count API ([documentation](./docs/favserver_count.md))
+- NameMC Favorite Servers API ([documentation](./docs/favservers.md))
+- NameMC Favorite Servers Count API ([documentation](./docs/favservers_count.md))
 
