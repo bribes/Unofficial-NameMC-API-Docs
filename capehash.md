@@ -19,7 +19,12 @@ Here are the different responses that can be returned:
 
 **Returns the Skin Hash / HTTP `200`:**
 ```json
-{"skinhash":"a7c87dca2251c5b6"}
+{"capehash":"a7c87dca2251c5b6"}
+```
+
+**No Cape / HTTP `200`:**
+```json
+{"capehash":null}
 ```
 
 **You Didn't Provide The Username Parameter / HTTP `404`:**
