@@ -1,5 +1,5 @@
 # NameMC Friends API docs
-NameMC has their own api for friends.
+NameMC has their own API for friends.
 
 ### `GET https://api.namemc.com/profile/UUID_Here/friends`
 This is the only endpoint for this API.
