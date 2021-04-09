@@ -30,7 +30,7 @@ Need help with using the API? DM me on Discord Faav#0130
 ?>
 ```
 
-### warning ⚠
+### warning
 NameMC doesn't provide an open API except for there friends API, so this API uses the website itself, so if the website ever changes then the API may be messed up so use at your own risk.
 
 This API is not affiliated nor indorsed by NameMC, Minecraft, Mojang, or Microsoft.
