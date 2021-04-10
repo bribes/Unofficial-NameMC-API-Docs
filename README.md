@@ -1,10 +1,11 @@
 # www.faav.tk/v1/namemc/
 
+About:
 Unofficial NameMC API Documentation made by Faav#0130. Documentation for https://namemc.com/ and www.faav.tk/v1/namemc.
 
-Need help with using the API? DM me on Discord Faav#0130
-
 ![logo1](https://user-images.githubusercontent.com/52789876/114109154-aa0c7880-98a2-11eb-8925-afa52e0b1404.png)
+
+Need help with using the API? DM me on Discord Faav#0130
 
 ### routes
 - NameMC Skin Hash API ([documentation](./docs/skinhash.md))
