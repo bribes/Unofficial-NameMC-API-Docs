@@ -1,4 +1,4 @@
-# www.faav.tk/v1/namemc/
+# www.faav.tk/v1/namemc
 
 Unofficial NameMC API Documentation made by Faav#0130. Documentation for https://namemc.com and www.faav.tk/v1/namemc.
 
