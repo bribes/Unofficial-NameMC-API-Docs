@@ -1,6 +1,6 @@
 # www.faav.tk/v1/namemc/
 
-Unofficial API Documentation for https://namemc.com.
+Unofficial NameMC API Documentation made by Faav#0130. Documentation for https://namemc.com/ and www.faav.tk/v1/namemc.
 
 Need help with using the API? DM me on Discord Faav#0130
 
