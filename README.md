@@ -48,7 +48,7 @@ javascript:
 	getJSON('https://www.faav.tk/v1/namemc/capecount?username=Marc',
 	function(err, data) {
 	 if (err !== null) {
-	   alert('Something went wrong: ' + err);
+	   document.getElementById('marc').innerHTML = err;
 	 } else {
 	   document.getElementById('marc').innerHTML = 'Marc has '+data.formatted+' capes.';
 	 }
