@@ -95,6 +95,8 @@ public static void main(String[] args) {
 	}
 }
 ```
+### contributors
+Thank you JerreBor (Jero) for the Java usage example, and thank you 88 (lucky swede) for the documentation template.
 
 ### warning
 NameMC doesn't provide an open API except for their friends API, so this API uses the website itself, so if the website ever changes then the API may be messed up so use at your own risk.
