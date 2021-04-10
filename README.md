@@ -25,9 +25,41 @@ Need help with using the API? DM me on Discord Faav#0130
 
 ### usage
 javascript:
-```javascript
-function test() {
-}
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<script>
+	var getJSON = function(url, callback) {
+	   var xhr = new XMLHttpRequest();
+	   xhr.open('GET', url, true);
+	   xhr.responseType = 'json';
+	   xhr.onload = function() {
+	     var status = xhr.status;
+	     if (status === 200) {
+	       callback(null, xhr.response);
+	     } else {
+	       callback(status, xhr.response);
+	     }
+	   };
+	   xhr.send();
+	};
+
+	getJSON('https://www.faav.tk/v1/namemc/capecount?username=Marc',
+	function(err, data) {
+	 if (err !== null) {
+	   alert('Something went wrong: ' + err);
+	 } else {
+	   document.getElementById('marc').innerHTML = 'Marc has '+data.formatted+' capes.';
+	 }
+	});
+	</script>
+	<title></title>
+</head>
+<body>
+	<p id="marc">Marc has 0 capes.</p>
+</body>
+</html>
 ```
 php:
 ```php 
