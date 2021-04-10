@@ -72,6 +72,30 @@ $marcs_capes = $namemc_api -> formatted;
 ?>
 ```
 
+Java:
+
+OkHttp and Gson:
+```java
+public static void main(String[] args) {
+	final OkHttpClient okHttpClient = new OkHttpClient();
+	final Gson gson = new Gson();
+
+	final Request request = new Request.Builder()
+		.url("https://www.faav.tk/v1/namemc/capecount?username=Marc")
+		.get()
+		.build();
+
+	try (final Response response = okHttpClient.newCall(request).execute()) {
+		if (response.isSuccessful()) {
+			final JsonObject jsonObject = gson.fromJson(response.body().charStream(), JsonObject.class);
+			System.out.printf("Marc has %s capes", jsonObject.get("formatted").getAsString());
+		}
+	} catch (IOException e) {
+		e.printStackTrace();
+	}
+}
+```
+
 ### warning
 NameMC doesn't provide an open API except for their friends API, so this API uses the website itself, so if the website ever changes then the API may be messed up so use at your own risk.
 
