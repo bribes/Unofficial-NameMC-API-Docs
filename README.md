@@ -23,7 +23,7 @@ Need help with using the API? DM me on Discord Faav#0130
 ### official namemc api
 - NameMC Friends API ([documentation](./docs/friends.md))
 
-### usage
+### usage examples
 javascript:
 https://www.faav.tk/usage/html
 ```html
