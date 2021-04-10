@@ -74,7 +74,7 @@ $marcs_capes = $namemc_api -> formatted;
 
 java:
 
-okHttp & Gson:
+okHttp & gson:
 ```java
 public static void main(String[] args) {
 	final OkHttpClient okHttpClient = new OkHttpClient();
