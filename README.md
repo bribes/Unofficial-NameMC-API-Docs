@@ -54,11 +54,8 @@ javascript:
 	 }
 	});
 	</script>
-	<title></title>
 </head>
-<body>
 	<p id="marc">Marc has 0 capes.</p>
-</body>
 </html>
 ```
 php:
