@@ -25,6 +25,7 @@ Need help with using the API? DM me on Discord Faav#0130
 
 ### usage
 javascript:
+https://www.faav.tk/usage/html
 ```html
 <html>
 <head>
@@ -60,9 +61,12 @@ javascript:
 </html>
 ```
 php:
+https://www.faav.tk/usage/php
 ```php 
-<?php
-
+<?php 
+$namemc_api = json_decode(file_get_contents("https://www.faav.tk/v1/namemc/capecount?username=Marc"), false);
+$marcs_capes = $namemc_api -> formatted;
+ echo '<p>Marc has '.$marcs_capes." capes.</p>";
 ?>
 ```
 
