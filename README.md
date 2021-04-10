@@ -24,7 +24,7 @@ Need help with using the API? DM me on Discord Faav#0130
 - NameMC Friends API ([documentation](./docs/friends.md))
 
 ### usage examples
-#### javascript:
+javascript:
 
 https://www.faav.tk/usage/html
 ```html
@@ -61,7 +61,7 @@ https://www.faav.tk/usage/html
 	</body>
 </html>
 ```
-#### php:
+php:
 
 https://www.faav.tk/usage/php
 ```php 
