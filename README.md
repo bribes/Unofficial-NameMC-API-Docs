@@ -26,7 +26,6 @@ Need help with using the API? DM me on Discord Faav#0130
 ### usage
 javascript:
 ```html
-<!DOCTYPE html>
 <html>
 <head>
 	<script>
@@ -55,7 +54,9 @@ javascript:
 	});
 	</script>
 </head>
+	<body>
 	<p id="marc">Marc has 0 capes.</p>
+	</body>
 </html>
 ```
 php:
