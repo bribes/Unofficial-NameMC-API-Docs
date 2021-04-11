@@ -21,11 +21,10 @@ Documentation for https://namemc.com and www.faav.tk/v1/namemc.<br><br>
 	- [JavaScript](#JavaScript)
 	- [PHP](#PHP)
 	- [Java](#Java)
-
 <br>
 
 ## About
-Interesting about text here.
+I created this API for people who need to use NameMC's database in a automated way.
 
 <br>
 
