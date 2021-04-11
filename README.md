@@ -138,5 +138,5 @@ Thank you JerreBor (Jero) for the Java usage example and better Read Me file, an
 <br>
 
 ## Disclaimer
-This API is not affiliated nor indorsed by NameMC, Minecraft, Mojang, nor Microsoft.
+This API is not affiliated nor indorsed by NameMC, Minecraft, Mojang, and/or Microsoft.
 
