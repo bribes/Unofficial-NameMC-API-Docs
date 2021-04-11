@@ -1,12 +1,40 @@
-# www.faav.tk/v1/namemc
-
-Unofficial NameMC API Documentation made by Faav#0130. Documentation for https://namemc.com and www.faav.tk/v1/namemc.
-
 ![logo1](https://user-images.githubusercontent.com/52789876/114109154-aa0c7880-98a2-11eb-8925-afa52e0b1404.png)
 
-Need help with using the API? DM me on Discord Faav#0130
+<p align=center>
+Unofficial NameMC API Documentation made by Faav.<br>
+Documentation for https://namemc.com and www.faav.tk/v1/namemc.<br><br>
+</p>
 
-### routes
+---
+<br>
+
+## Contents
+- [About](#About)
+
+- [Limitations](#Limitations)
+
+- [Routes](#Routes)
+
+- [Official NameMC API](<#Official NameMC API>)
+
+- [Usage Examples](<#Usage Examples>)
+	- [JavaScript](#JavaScript)
+	- [PHP](#PHP)
+	- [Java](#Java)
+
+<br>
+
+## About
+Interesting about text here.
+
+<br>
+
+## Limitations
+This API scrapes the NameMC website in order to provide accurate responses. If the NameMC layout changes or goes offline, this API will provide inaccurate information or will not function at all. Please keep this in mind while using this API. 
+
+<br>
+
+## Routes
 - NameMC Skin Hash API ([documentation](./docs/skinhash.md))
 - NameMC Cape Hash API ([documentation](./docs/capehash.md))
 - NameMC Capes API ([documentation](./docs/capes.md))
@@ -20,13 +48,19 @@ Need help with using the API? DM me on Discord Faav#0130
 - NameMC Favorite Servers API ([documentation](./docs/favservers.md))
 - NameMC Favorite Servers Count API ([documentation](./docs/favservers_count.md))
 
-### official namemc api
+<br>
+
+## Official NameMC API
 - NameMC Friends API ([documentation](./docs/friends.md))
 
-### usage examples
-javascript:
+<br>
 
-https://www.faav.tk/usage/html
+## Usage Examples
+<br>
+
+### JavaScript:
+
+[See it in action](https://www.faav.tk/usage/html)
 ```html
 <html>
 <head>
@@ -61,9 +95,11 @@ https://www.faav.tk/usage/html
 	</body>
 </html>
 ```
-php:
+<br>
 
-https://www.faav.tk/usage/php
+### PHP:
+
+[See it in action](https://www.faav.tk/usage/php)
 ```php 
 <?php 
 $namemc_api = json_decode(file_get_contents("https://www.faav.tk/v1/namemc/capecount?username=Marc"), false);
@@ -71,10 +107,11 @@ $marcs_capes = $namemc_api -> formatted;
  echo '<p>Marc has '.$marcs_capes." capes.</p>";
 ?>
 ```
+<br>
 
-java:
+### Java:
 
-okHttp & gson:
+OkHttp & Gson:
 ```java
 public static void main(String[] args) {
 	final OkHttpClient okHttpClient = new OkHttpClient();
@@ -95,12 +132,13 @@ public static void main(String[] args) {
 	}
 }
 ```
-### contributions
+<br>
+
+## Contributions
 Thank you JerreBor (Jero) for the Java usage example, and thank you 88 (lucky swede) for the documentation template.
 
-### warning
-NameMC doesn't provide an open API except for their friends API, so this API uses the website itself, so if the website ever changes then the API may be messed up so use at your own risk.
+<br>
 
-### disclaimer
+## Disclaimer
 This API is not affiliated nor indorsed by NameMC, Minecraft, Mojang, or Microsoft.
 
