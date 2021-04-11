@@ -1,5 +1,5 @@
 <p align=center>
-<img src="https://docs.faav.tk/logo.svg">
+<img style="image-rendering: pixelated;" src="https://docs.faav.tk/logo.svg">
 </p>
 
 <p align=center>
