@@ -1,6 +1,8 @@
 <p align=center>
 <img src="https://user-images.githubusercontent.com/52789876/114109154-aa0c7880-98a2-11eb-8925-afa52e0b1404.png">
+</p>
 
+<p align=center>
 Unofficial NameMC API Documentation made by Faav.<br>
 Documentation for https://namemc.com and www.faav.tk/v1/namemc.<br><br>
 </p>
