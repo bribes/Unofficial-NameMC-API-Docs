@@ -21,7 +21,6 @@ Documentation for https://namemc.com and www.faav.tk/v1/namemc.<br><br>
 	- [JavaScript](#javascript)
 	- [PHP](#php)
 	- [Java](#java)
-- [Contributions](#contributions)
 <br>
 
 ## About
