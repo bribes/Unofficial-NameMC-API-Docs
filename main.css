@@ -11,9 +11,8 @@ a {
         transition: box-shadow ease 1s;
 }
 
-a:active,
 a:hover {
-	outline-width: 0
+	outline-width: 0;
 	color: #fff;
         -webkit-box-shadow: inset 0 -100px 0 0 #85cf9b;
         box-shadow: inset 0 -100px 0 0 #85cf9b;
