@@ -135,7 +135,7 @@ public static void main(String[] args) {
 <br>
 
 ## Contributions
-Thank you JerreBor (Jero) for the Java usage example and better Read Me file, and thank you lucky swede for the documentation template.
+Thank you JerreBor (Jero) for the Java usage example and the better Read Me file, and thank you lucky swede for the documentation template.
 
 <br>
 
