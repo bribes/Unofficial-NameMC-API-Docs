@@ -56,7 +56,6 @@ This API scrapes the NameMC website in order to provide accurate responses. If t
 <br>
 
 ## Usage Examples
-<br>
 
 ### JavaScript:
 
