@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" media="all" href="assets/css/main.css" />
+
 <p align=center>
 <img src="https://docs.faav.tk/logo.svg">
 </p>
