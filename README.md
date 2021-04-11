@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" media="all" href="assets/css/main.css" />
+<link rel="stylesheet" type="text/css" media="all" href="main.css" />
 
 <p align=center>
 <img src="https://docs.faav.tk/logo.svg">
