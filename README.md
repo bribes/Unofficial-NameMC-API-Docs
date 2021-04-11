@@ -17,7 +17,7 @@ Documentation for https://namemc.com and www.faav.tk/v1/namemc.<br><br>
 
 - [Official NameMC API](<#Official NameMC API>)
 
-- [Usage Examples](<#Usage Examples>)
+- [Usage Examples](<#usage examples>)
 	- [JavaScript](#JavaScript)
 	- [PHP](#PHP)
 	- [Java](#Java)
