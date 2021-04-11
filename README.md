@@ -95,7 +95,7 @@ public static void main(String[] args) {
 	}
 }
 ```
-### contributors
+### contributions
 Thank you JerreBor (Jero) for the Java usage example, and thank you 88 (lucky swede) for the documentation template.
 
 ### warning
