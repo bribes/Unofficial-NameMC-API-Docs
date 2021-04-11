@@ -9,18 +9,18 @@ Documentation for https://namemc.com and www.faav.tk/v1/namemc.<br><br>
 <br>
 
 ## Contents
-- [About](#About)
+- [About](#about)
 
-- [Limitations](#Limitations)
+- [Limitations](#limitations)
 
-- [Routes](#Routes)
+- [Routes](#routes)
 
-- [Official NameMC API](<#Official NameMC API>)
+- [Official NameMC API](<#official-namemc-api>)
 
-- [Usage Examples](<#usage examples>)
-	- [JavaScript](#JavaScript)
-	- [PHP](#PHP)
-	- [Java](#Java)
+- [Usage Examples](<#usage-examples>)
+	- [JavaScript](#javascript)
+	- [PHP](#php)
+	- [Java](#java)
 - [Contributions](#contributions)
 <br>
 
