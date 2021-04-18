@@ -100,7 +100,9 @@ This API scrapes the NameMC website in order to provide accurate responses. If t
 </html>
 ```
 
-### Fetch:
+### Fetch: (My Favorite)
+
+[See it in action](https://www.faav.tk/usage/fetch)
 ```html
 <html>
 <head>
