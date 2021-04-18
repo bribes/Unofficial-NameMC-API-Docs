@@ -100,7 +100,7 @@ This API scrapes the NameMC website in order to provide accurate responses. If t
 </html>
 ```
 
-### Fetch: (My Favorite)
+#### Fetch: (My Favorite)
 
 [See it in action](https://www.faav.tk/usage/fetch)
 ```html
@@ -120,7 +120,7 @@ This API scrapes the NameMC website in order to provide accurate responses. If t
 </html>
 ```
 
-### jQuery:
+#### jQuery:
 
 [See it in action](https://www.faav.tk/usage/jquery)
 ```html
