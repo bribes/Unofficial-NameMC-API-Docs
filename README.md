@@ -120,6 +120,28 @@ This API scrapes the NameMC website in order to provide accurate responses. If t
 </html>
 ```
 
+### jQuery:
+
+[See it in action](https://www.faav.tk/usage/jquery)
+```html
+<html>
+<head>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+	</script>
+	<script>
+	    $.getJSON('https://www.faav.tk/v1/namemc/capecount?username=Marc', function(data) {
+	           document.getElementById('marc').innerHTML = 'Marc has '+data.formatted+' capes.';
+	       });
+	</script>
+	<title></title>
+</head>
+<body>
+	<p id="marc">Marc has 0 capes.</p>
+</body>
+</html>
+```
+
 <br>
 
 ### PHP:
