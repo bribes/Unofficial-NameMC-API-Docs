@@ -64,7 +64,7 @@ This API scrapes the NameMC website in order to provide accurate responses. If t
 
 #### XHR:
 
-[See it in action](https://www.faav.tk/usage/html)
+[See it in action](https://www.faav.tk/usage/xhr)
 ```html
 <html>
 <head>
