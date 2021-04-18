@@ -99,6 +99,25 @@ This API scrapes the NameMC website in order to provide accurate responses. If t
 	</body>
 </html>
 ```
+
+### Fetch:
+```html
+<html>
+<head>
+
+	<script>
+	   fetch('https://www.faav.tk/v1/namemc/capecount?username=Marc').then(res => res.json()).then((data) => { 
+	       document.getElementById('marc').innerHTML = 'Marc has '+data.formatted+' capes.';
+	   })
+	</script>
+	<title></title>
+</head>
+<body>
+	<p id="marc">Marc has 0 capes.</p>
+</body>
+</html>
+```
+
 <br>
 
 ### PHP:
