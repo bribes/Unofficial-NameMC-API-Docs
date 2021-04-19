@@ -1,7 +1,7 @@
 <link rel="stylesheet" type="text/css" media="all" href="animation.css" />
 
 <p align=center>
-<img src="https://docs.faav.tk/logo.svg">
+<img src="https://user-images.githubusercontent.com/52789876/115173331-13f00380-a095-11eb-9f3d-cd2a9fae680b.png">
 </p>
 
 <p align=center>
