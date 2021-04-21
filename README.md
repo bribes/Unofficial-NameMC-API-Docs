@@ -10,34 +10,36 @@ Documentation for https://namemc.com and www.faav.tk/v1/namemc.<br><br>
 </p>
 
 ---
+
 <br>
 
 ## Contents
+
 - [About](#about)
 
 - [Limitations](#limitations)
 
 - [Routes](#routes)
 
-- [Official NameMC API](<#official-namemc-api>)
+- [Official NameMC API](#official-namemc-api)
 
-- [Usage Examples](<#usage-examples>)
-	- [JavaScript](#javascript)
-	- [PHP](#php)
-	- [Java](#java)
-<br>
+- [Usage Examples](#usage-examples) - [JavaScript](#javascript) - [PHP](#php) - [Java](#java)
+  <br>
 
 ## About
+
 I created this API for people who need to use NameMC's database in a automated way.
 
 <br>
 
 ## Limitations
-This API scrapes the NameMC website in order to provide accurate responses. If the NameMC layout changes or goes offline, this API will provide inaccurate information or will not function at all. Please keep this in mind while using this API. 
+
+This API scrapes the NameMC website in order to provide accurate responses. If the NameMC layout changes or goes offline, this API will provide inaccurate information or will not function at all. Please keep this in mind while using this API.
 
 <br>
 
 ## Routes
+
 - NameMC Skin Hash API ([documentation](./docs/skinhash.md))
 - NameMC Cape Hash API ([documentation](./docs/capehash.md))
 - NameMC Capes API ([documentation](./docs/capes.md))
@@ -54,6 +56,7 @@ This API scrapes the NameMC website in order to provide accurate responses. If t
 <br>
 
 ## Official NameMC API
+
 - NameMC Friends API ([documentation](./docs/friends.md))
 
 <br>
@@ -65,6 +68,7 @@ This API scrapes the NameMC website in order to provide accurate responses. If t
 #### XHR:
 
 [See it in action](https://www.faav.tk/usage/xhr)
+
 ```html
 <html>
 <head>
@@ -103,12 +107,13 @@ This API scrapes the NameMC website in order to provide accurate responses. If t
 #### Fetch (My Favorite):
 
 [See it in action](https://www.faav.tk/usage/fetch)
+
 ```html
 <html>
 <head>
 
 	<script>
-	   fetch('https://www.faav.tk/v1/namemc/capecount?username=Marc').then(res => res.json()).then((data) => { 
+	   fetch('https://www.faav.tk/v1/namemc/capecount?username=Marc').then(res => res.json()).then((data) => {
 	       document.getElementById('marc').innerHTML = 'Marc has '+data.formatted+' capes.';
 	   })
 	</script>
@@ -123,6 +128,7 @@ This API scrapes the NameMC website in order to provide accurate responses. If t
 #### jQuery:
 
 [See it in action](https://www.faav.tk/usage/jquery)
+
 ```html
 <html>
 <head>
@@ -147,18 +153,21 @@ This API scrapes the NameMC website in order to provide accurate responses. If t
 ### PHP:
 
 [See it in action](https://www.faav.tk/usage/php)
-```php 
-<?php 
+
+```php
+<?php
 $namemc_api = json_decode(file_get_contents("https://www.faav.tk/v1/namemc/capecount?username=Marc"), false);
 $marcs_capes = $namemc_api -> formatted;
  echo '<p>Marc has '.$marcs_capes." capes.</p>";
 ?>
 ```
+
 <br>
 
 ### Java:
 
 #### OkHttp & Gson:
+
 ```java
 public static void main(String[] args) {
 	final OkHttpClient okHttpClient = new OkHttpClient();
@@ -179,13 +188,15 @@ public static void main(String[] args) {
 	}
 }
 ```
+
 <br>
 
 ## Contributions
+
 Thank you JerreBor (Jero) for the Java usage example and the better Read Me file, and thank you lucky swede for the documentation template.
 
 <br>
 
 ## Disclaimer
-This API is not affiliated nor indorsed by NameMC, Minecraft, Mojang, and/or Microsoft.
 
+This API is not affiliated nor indorsed by NameMC, Minecraft, Mojang, and/or Microsoft.
