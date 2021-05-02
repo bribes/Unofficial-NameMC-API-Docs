@@ -1,9 +1,7 @@
 <link rel="stylesheet" type="text/css" media="all" href="animation.css" />
 
-<p align=center>
 # THIS AND THE API IS DICONTINUED
 if you want an alternative try using https://api.snaz.in/docs#namemc
-</p>
 
 ---
 
