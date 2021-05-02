@@ -1,11 +1,8 @@
 <link rel="stylesheet" type="text/css" media="all" href="animation.css" />
 
+<p align=center>
 # THIS AND THE API IS DICONTINUED
 if you want an alternative try using https://api.snaz.in/docs#namemc
-
-<p align=center>
-Unofficial NameMC API Documentation made by Faav.<br>
-Documentation for https://namemc.com and www.faav.tk/v1/namemc.<br><br>
 </p>
 
 ---
