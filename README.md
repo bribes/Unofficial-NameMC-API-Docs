@@ -1,8 +1,7 @@
 <link rel="stylesheet" type="text/css" media="all" href="animation.css" />
 
-<p align=center>
-<img src="https://user-images.githubusercontent.com/52789876/115173670-cc1dac00-a095-11eb-9968-97b2aa6f06f5.png">
-</p>
+# THIS AND THE API IS DICONTINUED
+if you want an alternative try using https://api.snaz.in/docs#namemc
 
 <p align=center>
 Unofficial NameMC API Documentation made by Faav.<br>
