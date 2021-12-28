@@ -1,7 +1,7 @@
 <link rel="stylesheet" type="text/css" media="all" href="animation.css" />
 
 # THIS AND THE API IS DICONTINUED
-if you want an alternative try using https://api.faav.tk/ or https://api.snaz.in/docs#namemc (SNAZ IS CURRENTLY NOT WORKING)
+if you want an alternative try using https://faav.gapple.pw/ or https://api.snaz.in/docs#namemc (SNAZ IS CURRENTLY NOT WORKING)
 
 ---
 
